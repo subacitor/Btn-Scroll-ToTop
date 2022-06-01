@@ -45,18 +45,18 @@ scroll-to-top {
 ================================================
 .jss
 ================================================
-const nav = document.querySelector(".......NAVIGATION.......");
-  const btnstyle = document.querySelector(".btnstyle");
-  btnstyle.addEventListener("click", function(){
-    window.scrollTo({top: 0, left: 0, behavior: "smooth"});
-  });
-  Window.addEventListener("scroll", () => {
-    if (window.pageYoffset > 90){
-      btnstyle.class.list.add("active");
-    }else{
-      btnstyle.class.list.remove("active");
-    }
-  });
+ const nav = document.querySelector("nav");
+    const btnstyle = document.querySelector(".btnstyle");
+    btnstyle.addEventListener("click", function () {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    });
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 90) {
+        btnstyle.classList.add("active");
+      } else {
+        btnstyle.classList.remove("active");
+      }
+    });
 
 ================================================
 
