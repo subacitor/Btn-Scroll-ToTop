@@ -7,7 +7,7 @@
 
 .css
 ================================================
-scroll-to-top {
+.scroll-to-top {
     position: relative;
 }
 .btn-position {
