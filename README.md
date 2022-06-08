@@ -1,7 +1,7 @@
 # Btn-Scroll-ToTop
 .html
 ================================================
-  <button type="button" class="scroll-to-top btn-position btnstyle" onclick="goToTop();"><i
+  <button type="button" class="scroll-to-top btn-position btnstyle"><i
     class="fa-solid fa-angle-up"></i></button>
 ================================================
 
